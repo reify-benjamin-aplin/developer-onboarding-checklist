@@ -5,7 +5,7 @@ This checklist walks a new developer through our projects and build processes._
 * [x] Create a [Access Request card](https://reifyhealth.atlassian.net/wiki/spaces/IT/pages/1075970084/How+to+request+account+access+revocation) to be invited to the Reify Github org. Be sure to include your username.
 * [x] Ensure you have a private reify directory in your home directory: `mkdir -p ~/.reify`
 * [x] Install Java JDK 11 or newer: `brew install openjdk@11`
-* [ ] Set up SSH per the instructions in [`lein-git-down`](https://github.com/reifyhealth/lein-git-down/#private-repositories-ssh-authentication):
+* [x] Set up SSH per the instructions in [`lein-git-down`](https://github.com/reifyhealth/lein-git-down/#private-repositories-ssh-authentication):
   * [x] Generate SSH key and add it to the ssh-agent as per [this doc](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/) (*Important Note*: add `-m PEM` as an argument to the command `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"` as in `ssh-keygen -t rsa -b 4096 -m PEM -C "your_email@example.com"`)
   * [x] [Create a new SSH key to your GitHub account](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/). Please make sure your SSH key is stored safely. This key should be strictly used for business purposes. Do not use this key on any of your personal accounts.
 
