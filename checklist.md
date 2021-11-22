@@ -45,9 +45,9 @@ The setup of both projects [`eDOA`](https://github.com/reifyhealth/edoa-service)
 ### Frontend services - Study Sheet and eDOA React Components
 
 Once getting the Backend services running, you can start the [`Study Sheet`](https://github.com/reifyhealth/study-sheet) service, that its the frontend of StudyTeam Documents product.
-  * [ ] [Requirements](https://github.com/reifyhealth/study-sheet#requirements)
-  * [ ] [Quickstart](https://github.com/reifyhealth/study-sheet#requirements)
-  * [ ] [Commands](https://github.com/reifyhealth/study-sheet#requirements)
+  * [x] [Requirements](https://github.com/reifyhealth/study-sheet#requirements)
+  * [x] [Quickstart](https://github.com/reifyhealth/study-sheet#requirements)
+  * [x] [Commands](https://github.com/reifyhealth/study-sheet#requirements)
 
 # Miscellaneous
 * [ ] Set up [pantry](https://github.com/reifyhealth/pantry) which is a shared package of spec definitions and other utility function used in Bengal and Salk. This will already be pulled into Salk and Bengal but you can peruse it locally if you ever end up contributing to it.
